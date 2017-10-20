@@ -1,0 +1,14 @@
+# jetBrains IDE project files
+.idea
+
+# Node modules
+/node_modules/
+
+# Logs
+npm-debug.log
+
+# Screenshot
+photo_gallery_screen.png
+
+# Loaded photos
+/public/photos/

@@ -1,0 +1,66 @@
+@font-face {
+    font-family: catFont;
+    src: url("../fonts/sunday-morning/Sunday Morning.otf");
+}
+
+body {
+    padding: 20px;
+    font-family: catFont;
+    font-size: x-large;
+    background-color: #00B7DF;
+    margin-top: -20px;
+    color: #000;
+}
+
+.customized {
+    color: #0000a0;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #DDD;
+}
+
+.subtitle {
+    color: #0000a0;
+}
+
+.photo {
+    display: inline-block;
+    margin: 10px;
+    margin-left: 0px;
+    padding: 10px;
+    border: 1px solid #EEE;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #DDD;
+}
+
+.photo h2 {
+    margin: 0;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.photo img {
+    height: 200px;
+}
+
+.rotated img {
+    height: 110px;
+}
+
+.rotated {
+    margin: 40px -20px 40px -20px;
+}
+
+.form-control-container {
+    margin-top: 20px;
+}
+
+.btn-primary {
+    margin-bottom: 10px;
+}
+
+.alert-message {
+    color: cyan;
+    font-weight: bold;
+}

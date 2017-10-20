@@ -1,0 +1,26 @@
+<%- include('partials/header') %>
+
+        <div class="page-header">
+            <h1><%= title %></h1>
+            <p class="subtitle">Upload a photo</p>
+        </div>
+        <form class='navbar-form navbar-left' role='search' method='post' enctype='multipart/form-data'>
+            <div class='form-group'>
+                <div class='form-control-container'>
+                    <input type='text' class='form-control' placeholder='Name' name='fileName'>
+                </div>
+                <div class='form-control-container'>
+                    <input type='file' class='form-control' name='fileImage'>
+                    <span class="glyphicon glyphicon-asterisk"></span>
+                    <span class="alert-message">
+                        <%= alertMessage %>
+                    </span>
+                </div>
+                <div class='form-control-container'>
+                    <a class="btn btn-info btn-lg customized" id="submit" href="/" role="button">Back to main page</a>
+                    <button type='submit' class='btn btn-info btn-lg customized'>Upload</button>
+                </div>
+            </div>
+        </form>
+
+<%- include('partials/footer') %>
