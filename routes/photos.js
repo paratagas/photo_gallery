@@ -11,7 +11,7 @@ exports.list = (req, res, next) => {
         res.render('photos', {
             title: 'Photo gallery',
             photos: photos,
-            pageTestScript: ''
+            pageTestScript: '/tests/tests-index.js'
         });
     });
 };
@@ -20,7 +20,7 @@ exports.form = (req, res) => {
     res.render('photos/upload', {
         title: 'Photo gallery',
         alertMessage: "",
-        pageTestScript: ''
+        pageTestScript: '/tests/tests-upload.js'
     });
 };
 
